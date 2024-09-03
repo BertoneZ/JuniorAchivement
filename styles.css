@@ -233,13 +233,12 @@ footer p {
     text-align: center;
     font-weight: 400;
     text-decoration: none;
-    white-space: nowrap;
+    white-space: normal; /* Permite que el texto ocupe varias líneas */
+    word-wrap: break-word; /* Corta las palabras largas en múltiples líneas */
+    word-break: break-word; /* Rompe las palabras largas si es necesario */
     overflow: hidden;
     text-overflow: clip;
-    /*hacer que si la palabra es muy larga se corte y se ponga abajo*/
-
-
-
+    
   }
 
   .header {
