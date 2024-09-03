@@ -8,7 +8,7 @@ body {
   height: 100vh;
   width: 100%;
   box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Roboto', 'Arial';
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -334,9 +334,10 @@ footer p {
 
 .box p {
   font-size: 1.125rem;
-  font-weight: 300;
+  font-weight: 400;
   text-align: justify;
   color: #555;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 @media (max-width: 1024px) {
