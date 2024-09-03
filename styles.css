@@ -388,6 +388,9 @@ footer p {
     height: 300px;
     display: block;
   }
+  .box p {
+    font-size: 1rem;
+  }
 }
 
 .main p {
